@@ -1,0 +1,10 @@
+{
+  "name": "@homy/tsconfig",
+  "version": "1.0.0",
+  "description": "Hold the project typescript configuration",
+  "main": "tsconfig.json",
+  "scripts": {},
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}

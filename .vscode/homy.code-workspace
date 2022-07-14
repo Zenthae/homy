@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "../"
+    },
+    {
+      "name": "zigbee",
+      "path": "../packages/zigbee"
+    },
+    {
+      "name": "tsconfig",
+      "path": "../packages/tsconfig"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules": true,
+      "packages": true
+    }
+  }
+}
