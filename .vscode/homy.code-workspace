@@ -11,6 +11,14 @@
     {
       "name": "tsconfig",
       "path": "../packages/tsconfig"
+    },
+    {
+      "name": "server",
+      "path": "../packages/server"
+    },
+    {
+      "name": "ui",
+      "path": "../packages/ui"
     }
   ],
   "settings": {
