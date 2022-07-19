@@ -1,6 +1,8 @@
-import { lstatSync } from "fs";
+import { Database } from '@/database';
+import { lstatSync } from 'fs';
 
-console.log("Hello from @homy/zigbee !!");
-console.log("Dev Mod Working !");
+console.log('Hello from @homy/zigbee !!');
+console.log('Dev Mod Working !');
 
-console.log(lstatSync("/dev/ttyACM0").isCharacterDevice());
+// console.log(lstatSync("/dev/ttyACM0").isCharacterDevice());
+const db = new Database();

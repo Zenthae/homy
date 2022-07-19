@@ -1,6 +1,12 @@
 {
   "extends": "@homy/tsconfig",
-  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
   "ts-node": {
     "experimentalResolver": true,
     "esm": true,
