@@ -1,0 +1,10 @@
+{
+  "name": "@homy/jest-config",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Zenthae",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  }
+}

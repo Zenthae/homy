@@ -1,18 +1,18 @@
 {
-  "name": "zigbee",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@homy/zigbee",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "test": "jest --detectOpenHandles"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "jest": {
+    "preset": "@homy/jest-config"
+  },
   "devDependencies": {
     "@homy/tsconfig": "workspace:*",
+    "@homy/jest-config": "workspace:*",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.0.6",
     "jest": "^28.1.3",

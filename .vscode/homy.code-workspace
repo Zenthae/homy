@@ -9,11 +9,15 @@
     },
     {
       "path": "../packages/zigbee"
+    },
+    {
+      "path": "../packages/jest-config"
     }
   ],
   "settings": {
     "files.exclude": {
-      "packages": true
+      "packages": true,
+      "node_modules": false
     }
   }
 }
