@@ -1,17 +1,18 @@
 {
   "private": true,
+  "packageManager": "pnpm@7.6.0",
   "workspaces": [
     "packages/*",
     "apps/*"
   ],
   "scripts": {
-    "clean": "rm -rf node_modules && rm -f pnpm-lock.yaml",
-    "format": "prettier --write \"**/*.{ts,md}\"",
     "turbo#build": "turbo run build",
     "turbo#clean": "turbo run clean",
     "turbo#dev": "turbo run dev --no-cache --parallel --continue",
     "turbo#lint": "turbo run lint",
-    "turbo#test": "turbo run test"
+    "turbo#test": "turbo run test",
+    "clean": "rm -rf node_modules && rm -f pnpm-lock.yaml",
+    "format": "prettier --write \"**/*.{ts,md}\""
   },
   "devDependencies": {
     "@types/node": "^18.0.6",
